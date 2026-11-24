@@ -1,0 +1,18 @@
+[general]
+name=CADtoVectorConverter
+qgisMinimumVersion=3.28
+description=Convert DXF CAD entities into GIS vector layers, with explicit CRS handling, geometry options, and multiple output formats.
+version=1.1.6
+author=GeosciCorner-Project
+email=geoscicorner@gmail.com
+about=Batch DXF-to-vector conversion using QGIS GDAL/OGR. Supports referenced CRS and unreferenced Local CRS workflows, geometry handling options, and GeoPackage, Shapefile, GeoJSON, and KML outputs where coordinate semantics permit.
+category=Vector
+icon=icon.png
+homepage=https://github.com/geoscicorner-project/CADtoVectorConverter
+tracker=https://github.com/geoscicorner-project/CADtoVectorConverter/issues
+repository=https://github.com/geoscicorner-project/CADtoVectorConverter
+tags=CAD,DXF,vector,conversion,OGR,GDAL,CRS
+hasProcessingProvider=no
+experimental=False
+deprecated=False
+changelog=1.1.6 - Rebranded as CADtoVectorConverter; retained v1.1.5 interface and conversion behavior.
